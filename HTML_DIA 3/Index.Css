@@ -1,5 +1,10 @@
+
+html{
+    background-image: linear-gradient(to bottom right, white, grey);
+}
+
 body{
-    font-family: Arial, sans-serif;
+    font-family: Arial, 'Open Sans, Semibold';
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,7 +18,7 @@ head{
     width: 100%;
     padding: 0px;
     background-color: #f0f0f0;
-    box-shadow: 2px 4px rgba(0, 0, 0, 0.952);
+    box-shadow: 2px 4px rgba(0, 0, 0, 0);
 }
 
 nav ul{
@@ -23,6 +28,9 @@ nav ul{
     gap: 250px;
     margin: 13px;
     padding: 4px;
+    position: absolute;
+    top: 0px;
+    left: 700px;
 }
 
 nav a{
