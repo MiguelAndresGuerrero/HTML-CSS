@@ -1,7 +1,23 @@
+@font-face {
+    font-family: Fuente-Amazon;
+    src: url(./Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_ThIt.ttf);
+}
+
+html{
+    size-adjust: 1080px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    height: 20px;
+    gap: 250px;
+    margin: 13px;
+    padding: 4px;
+}
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Fuente-Amazon;
     color: white;
     background-color: black;
     height: 100vh;
@@ -10,15 +26,22 @@ body {
 .container {
     position: relative;
     text-align: center;
-    height: 100vh;
+    top: 608px;
+    left: 380px;
+    height: 102px;
+    width: 1160px;
+    background: transparent url('Now you cant enjoy everything from Amazon Prime Video and Twitch Prime Video and twitch Prime with you Amazon Prime subcription on one place that brigs all the entertaiment you love.');
+    opacity: 1;
 }
 
 .search-icon {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 30px;
-    height: 30px;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    background: transparent url('media\Lupa.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 .logo {
@@ -67,8 +90,8 @@ body {
 .sign-up {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00A8E1;
-    color: white;
+    background-color: #d2e0e5;
+    color: black;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1em;
