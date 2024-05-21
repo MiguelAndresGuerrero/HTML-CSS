@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1e1e2e;
+    color: #f97306;
+}
+
+.container {
+    text-align: left;
+    padding-top: 100px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 60px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+main button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+}
+
+header nav ul li a.active {
+    border: 5px solid #08f198;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+main h1 {
+    font-size: 15em;
+    margin: 0.5em;
+}
+
+main p {
+    font-size: 3em;
+    margin: 0.5em;
+}
+
+button {
+    background-color: #ee7410;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: #f3f3f3;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e96306;
+}
