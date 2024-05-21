@@ -1,0 +1,9 @@
+body {
+    margin: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1e1e2e;
+    color: #f97306;
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+}
