@@ -8,8 +8,18 @@ body {
     left: 50%;
 }
 
-.div img {
+.img1{
     position: absolute;
     left: 80%;
     width: 600px;
+}
+
+.img2{
+    position: relative;
+    left: 1200px;
+}
+
+.img3{
+    position: absolute;
+    left: -1600px;
 }
