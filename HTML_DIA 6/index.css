@@ -23,7 +23,7 @@ body {
 }
 
 body {
-    padding-top: 60px; /* Altura del header para evitar superposición */
+    padding-top: 60px;
 }
 
 .logo-container img {
