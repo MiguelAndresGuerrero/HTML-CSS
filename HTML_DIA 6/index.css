@@ -101,7 +101,7 @@ input[type="text"] {
     gap: 10px;
 }
 
-button[type="submit"] {
+button {
     background-color: #005bbb;
     color: white;
     border: none;
