@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Tramitar Firma Electronica </title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header>
         <div class="header-container">
             <div class="logo-container">
                 <img src="media/Logo DIAN.png" alt="Logo DIAN">
             </div>
+
             <nav>
                 <ul>
                     <li><a href="Pagina1.html">Inicio</a></li>
@@ -19,6 +22,52 @@
                     <li><a href="Pagina5.html">Contacto</a></li>
                 </ul>
             </nav>
+    </header>
+    <br>
+    <div class="form-container">
+        <img src="media/Logo DIAN.png" alt="DIAN" style="margin: auto; height: 60px;">
+        <br>
+        <img src="media/Firma.png" alt="Firma" style="margin: auto; height: 30px;">
+        <h1>Tramitar Firma Electrónica</h1>
+        <ul>
+            <li>- Ingresa la contraseña que quieres asignarle a tu firma electrónica
+            <li>- Recuerde, la firma debe cumplir con los siguientes requisitos:
+            <li>- Debe tener mínimo 6 caracteres y máxima de 15
+            <li>- Debe tener al menos un (1) número
+            <li>- Debe tener al menos dos letras de la a-z ya sea mayúscula o minúscula. Mínimo debe tener una mayúscula
+            <li>- No debe tener más de 5 caracteres seguidos con la misma letra (Ejemplo: aaaaa1)
+            <li>- No contener caracteres especiales como: ñ, á, é, í, ó, ú, etc. Solo se permiten mayúsculas, minúsculas,
+                numeros y +, -, *,.
+        </ul>
+        <div class="logo-muisca-container">
+            <img src="media/Logo MUISCR.png" alt="Logo Muiscr">
+        </div>
+        <form action="1">
+            <label for="password">Contraseña</label>
+            <input type="text" id="password" name="password" required>
 
+            <label for="repet-password">vuelve a ingresar la Contraseña</label>
+            <input type="text" id="repet-password" name="repet-password" required>
+
+            <div class="captcha-container">
+                <input type="checkbox" id="captcha" name="captcha" required>
+                <label get="captcha"> No soy un robot </label>
+            </div>
+
+            <a href="Pagina2.html"><button type="submit"
+                    style="color: white;background-color: blue;">Consultar</button></a>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <p>
+                Prosperidad Social <br>
+                Carrera 8 #6C-38 Edificio San Agustin/Bogotá D.C., Colombia <br>
+                Codigo Postal: 111711 <br>
+                Horario de Atencion: 8:00 a.m. - 7:00 p.m. <br>
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>
