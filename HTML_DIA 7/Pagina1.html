@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIAN - Consulta</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="media/Logo DIAN.png" alt="Logo DIAN">
+            </div>
+            <nav>
+                <ul>
+
+                    <li><a href="Pagina1.html">Inicio</a></li>
+                    <li><a href="Pagina2.html">Trámites</a></li>
+                    <li><a href="Pagina5.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="Pagina1.html"><button class="consultar-btn"> Consultar </button></a>
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <h1>Bienvenido a la Dirección de Impuestos y Aduanas Nacionales</h1>
+            <p>por favor ingresa los datos de tu cédula para ingresar al</p>
+            <div class="logo-muisca-container">
+                <img src="media/Logo MUISCR.png" alt="Logo Muiscr">
+            </div>
+
+            <form action="Pagina6.html">
+                <label for="document-number">Número de Documento</label>
+                <input type="text" id="document-number" name="document-number" required>
+
+                <label for="document-date">Fecha de expedición del documento</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <div class="captcha-container">
+                    <input type="checkbox" id="captcha" name="captcha" required>
+                    <label get="captcha"> No soy un robot </label>
+                </div>
+            </form>
+                <a href="Pagina6.html"><button>Consultar</button></a>
+        </div>
+
+        <div class="services-container">
+            <p>Eres usuario nuevo? Mira estos servicios que pueden ser de gran utilidad</p>
+            <div class="services">
+                <div class="service">
+                    <img src="media/RUT.png" alt="Tramitar RUT">
+                    <h2>Tramitar RUT</h2>
+                    <p>El RUT (Registro Único Tributario) te permite ser identificado como un contribuyente. Tu
+                        identificación del RUT se llama NIT (Número de Identificación Tributaria) , el cual obtendrás al
+                        final del proceso</p>
+                    <a href="Pagina3.html"><button>Tramitar</button></a>
+                </div>
+                <div class="service">
+                    <img src="media/Firma.png" alt="Tramitar Firma Electrónica">
+                    <h2>Tramitar Firma Electrónica</h2>
+                    <p>La firma electrónica te permite autorizar procesos , contratos y demás de manera electrónica,
+                        desde cualquier parte del mundo</p>
+                    <a href="Pagina4.html"><button>Tramitar</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>
+                Prosperidad Social <br>
+                Carrera 8 #6C-38 Edificio San Agustin/Bogotá D.C., Colombia <br>
+                Codigo Postal: 111711 <br>
+                Horario de Atencion: 8:00 a.m. - 7:00 p.m. <br>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
