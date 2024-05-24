@@ -1,7 +1,8 @@
 body {
+    position: absolute;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0vw;
+    padding: 0vw;
     background-image: url('media/Fondo.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,9 +10,9 @@ body {
 }
 
 .header-container {
-    background-color: #005bbb;
+    background-color: #3669c9;
     color: white;
-    padding: 10px 20px;
+    padding: 0vw 9vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,19 +24,19 @@ body {
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 3vw;
 }
 
 .logo-container img {
-    height: 50px;
+    height: 3vw;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 40px;
-    margin: 20px;
-    padding: 10px;
+    gap: 4vw;
+    margin: 2vw;
+    padding: 1vw;
 }
 
 nav ul li a {
@@ -43,16 +44,17 @@ nav ul li a {
     text-decoration: none;
 }
 
-ul li{
+ul li {
     list-style: none;
     color: gray;
     text-align: left;
 }
+
 .consultar-btn {
     background-color: #ffffff;
     color: #000000;
     border: none;
-    padding: 15px 60px;
+    padding: 2vw 100vh;
     cursor: pointer;
     border-radius: 5px;
     width: -20px;
@@ -62,8 +64,8 @@ ul li{
 .form-container {
     background-color: white;
     max-width: 920px;
-    margin: 100px auto 20px auto;
-    padding: 20px;
+    margin: 100px auto 10vw auto;
+    padding: 30vw;
     border-radius: 10px;
     text-align: center;
 }
@@ -129,7 +131,7 @@ button {
     padding: 20px;
     border-radius: 10px;
     width: 200px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .service img {
@@ -151,13 +153,21 @@ button {
 }
 
 footer {
-    background-color: #005bbb;
+    background-color: #3366cc;
     color: white;
     text-align: left;
     padding: 10px 20px;
+    width: 1263px;
 }
 
-.footer-container p {
-    position: relative;
-    margin: 5px ;
+.footer-container {
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgen1 {
+    width: 40vw;
 }
