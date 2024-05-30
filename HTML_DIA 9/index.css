@@ -1,8 +1,8 @@
-body{
+body {
     position: absolute;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(media/Paisaje.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,35 +14,29 @@ body{
 }
 
 .Nube {
-    position:absolute;
-    margin: 5px;
+    position: relative;
+    left: 90vh;
+    top: 6vw;
     mix-blend-mode: multiply;
-    border: 2px solid #12e7f7;
 }
 
 .sol {
-    position:fixed;
-    margin: 5px;
-    left: 120vh;
-    top: 1vw;
+    position: relative;
+    left: 12vh;
+    top: -3vw;
     mix-blend-mode: multiply;
-    border: 2px solid #ffe600;
 }
 
 .gotas {
-    position:absolute;
-    margin: 5px;
+    position: relative;
     left: 80vh;
-    top: 15vw;
+    top: 4vw;
     mix-blend-mode: multiply;
-    border: 2px solid #0019fa;
 }
 
 .flor {
-    position: fixed;
-    right: 600px;
-    top: 31vw;
+    position: relative;
+    left: 1000px;
+    top: 17vw;
     mix-blend-mode: multiply;
-    margin: 5px;
-    border: 2px solid #fa0000;
 }

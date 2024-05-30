@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Paisaje Animado </title>
     <link rel="stylesheet" href="index.css">
-</head>
-
-<body>
-
-    <div class="Container">
-
-        <div class="Paisaje">
-            <img src="media/Paisaje.jpg" alt="Paisaje"
-            style="width: 1000px; height: auto;">
-        </div>
-
-        <div class="Nube">
-            <img src="media/nubes.png" alt="Nube" 
-            style="width: 200px; height: 100px;">
-        </div>
-
-        <div class="sol">
-            <img src="media/sol.png" alt="sol"
-            style="width: 150px; height: 100px;">
-        </div>
-
-        <div class="gotas">
-            <img src="media/Gotas.png" alt="gotas"
-            style="width: 300px; height: 150px;">
-        </div>
-
-        <div class="flor">
-            <img src="media/Flor.jpg" alt="flor"
-            style="width: 200px; height: 200px;">
-        </div>
-
+    <style> 
+        .Animation-Nubes {
+          position: relative;
+          animation-name: nubes;
+          animation-duration: 2s;
+          animation-timing-function: linear;
+          animation-iteration-count: 1;
+          animation-direction: alternate;
+        }
         
+        @keyframes nubes {
+          0%  {background-color: rgb(255, 255, 255); left:1400px; top: 0px;}
+          100% {background-color:rgb(252, 252, 252); left:0px; top:0px;}
+        }
+        </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="Animation-Nubes">
+            <div class="Nube">
+                <img src="media/nubes.png" alt="Nube" style="width: 200px; height: 100px;">
+            </div>
+        </div>
+        <div class="Animation-Sol">
+            <div class="sol">
+                <img src="media/sol.png" alt="sol" style="width: 200px; height: 150px;">
+            </div>
+        </div>
+        <div class="Animation-Gotas">
+            <div class="gotas">
+                <img src="media/Gotas.png" alt="gotas" 
+                style="width: 500px; height: 400px;">
+            </div>
+        </div>
+        <div class="Animation-Flor">
+            <div class="flor">
+                <img src="media/Flor.jpg" alt="flor" style="width: 300px; height: 300px;">
+            </div>
+        </div>
     </div>
-    
 </body>
 
 </html>
