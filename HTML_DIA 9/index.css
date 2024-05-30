@@ -15,28 +15,24 @@ body {
 
 .Nube {
     position: relative;
-    left: 90vh;
-    top: 6vw;
-    mix-blend-mode: multiply;
+    left: 400px;
+    top: 100px;
 }
 
 .sol {
     position: absolute;
-    left: 10vh;
-    top: 1vw;
-    mix-blend-mode:multiply;
+    left: 100px;
+    top: 30px;
 }
 
 .gotas {
     position: relative;
-    left: 95vh;
-    top: 7vw;
-    mix-blend-mode: multiply;
+    left: 550px;
+    top: 900px;
 }
 
 .flor {
-    position: absolute;
-    left: 100vh;
-    top: 32vw;
-    mix-blend-mode: multiply;
+    position: relative;
+    left: 600px;
+    top: 600px;
 }

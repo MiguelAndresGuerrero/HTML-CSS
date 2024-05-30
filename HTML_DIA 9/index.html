@@ -6,46 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Paisaje Animado </title>
     <link rel="stylesheet" href="index.css">
-    <style> 
-        .Animation-Nubes, .Animation-Gotas {
-          position: relative;
-          animation-name: nubes, gotas;
-          animation-duration: 2s;
-          animation-timing-function: linear;
-          animation-iteration-count: 1;
-          animation-direction: alternate;
+    <style>
+        .Animation-Nubes {
+            position: relative;
+            animation-name: nubes;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
         }
-        
+
         @keyframes nubes {
-          0%  {background-color: rgb(255, 255, 255); left:1400px; top: 0px;}
-          100% {background-color:rgb(252, 252, 252); left:0px; top:0px;}
+            0% {
+                background-image: url(media/imagen.png);
+                left: 1400px;
+                top: 0px;
+            }
+
+            100% {
+                background-image: url(media/imagen.png);
+                left: 0px;
+                top: 0px;
+            }
         }
-        </style>
+
+        .Animation-Gotas {
+            width: 100px;
+            height: 100px;
+            background-image: url(media/imagen.png);
+            position: relative;
+            animation-name: gotas;
+            animation-duration: 5s;
+        }
+
+        @keyframes gotas {
+            0% {
+                background-image: url(media/imagen.png);
+                left: 0px;
+                top: -8000px;
+            }
+
+            100% {
+                background-image: url(media/imagen.png);
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
 </head>
+
 <body>
     <div class="Container">
         <div class="Animation-Nubes">
             <div class="Nube">
-                <img src="media/nubes.png" alt="Nube" 
-                style="width: 300px; height: 50px;">
+                <img src="media/nubes.png" alt="Nube" style="width: 700px; height: 100px;">
             </div>
         </div>
         <div class="Animation-Sol">
             <div class="sol">
-                <img src="media/sol.png" alt="sol" 
-                style="width: 100px; height: 100px;">
+                <img src="media/sol.png" alt="sol" style="width: 300px; height: 200px;">
             </div>
         </div>
         <div class="Animation-Gotas">
             <div class="gotas">
-                <img src="media/Gotas.png" alt="gotas" 
-                style="width: 250px; height: 100px;">
+                <img src="media/Gotas.png" alt="gotas" style="width: 500px; height: 300px;">
             </div>
         </div>
         <div class="Animation-Flor">
             <div class="flor">
-                <img src="media/Flor.jpg" alt="flor" 
-                style="width: 150px; height: 150px;">
+                <img src="media/Flor.png" alt="flor" style="width: 300px; height: 300px;">
             </div>
         </div>
     </div>
