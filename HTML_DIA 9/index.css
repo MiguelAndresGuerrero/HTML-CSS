@@ -1,0 +1,48 @@
+body{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Fondo {
+    width: 100vw;
+    height: 100vh;
+}
+
+.Nube {
+    position:absolute;
+    margin: 5px;
+    mix-blend-mode: multiply;
+    border: 2px solid #12e7f7;
+}
+
+.sol {
+    position:fixed;
+    margin: 5px;
+    left: 120vh;
+    top: 1vw;
+    mix-blend-mode: multiply;
+    border: 2px solid #ffe600;
+}
+
+.gotas {
+    position:absolute;
+    margin: 5px;
+    left: 80vh;
+    top: 15vw;
+    mix-blend-mode: multiply;
+    border: 2px solid #0019fa;
+}
+
+.flor {
+    position: fixed;
+    right: 600px;
+    top: 31vw;
+    mix-blend-mode: multiply;
+    margin: 5px;
+    border: 2px solid #fa0000;
+}
