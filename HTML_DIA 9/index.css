@@ -35,8 +35,8 @@ body {
 }
 
 .flor {
-    position: relative;
+    position: absolute;
     left: 1000px;
-    top: 17vw;
+    top: 32vw;
     mix-blend-mode: multiply;
 }
