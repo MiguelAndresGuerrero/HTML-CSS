@@ -19,6 +19,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    color: #0043fa;
 }
 
 .logo {
@@ -45,9 +46,12 @@ body {
     border-radius: 4px;
 }
 
-.sidebar-menu li a:hover,
-.sidebar-menu li.active a {
+.sidebar-menu li a:hover {
     background-color: #0000fa;
+}
+.sidebar-menu li.active a{
+    background-color: #0043fa;
+    color: white;
 }
 
 .main-content {
@@ -58,10 +62,11 @@ body {
     padding: 20px;
 }
 
-div .card1 {
+div .card {
     background-color: #ffffff;
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(165, 165, 165, 0.486);
     min-width: 250px;
 }
 
@@ -91,6 +96,7 @@ header nav a:last-child {
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 20px;
+    width: 1000px;
 }
 
 .card {
@@ -98,16 +104,11 @@ header nav a:last-child {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1 1 calc(25% - 20px);
-    min-width: 250px;
 }
 
 .card h3 {
     margin: 0;
     font-size: 2em;
-}
-
-.card p {
-    color: #6c757d;
 }
 
 .progress-bar {
@@ -201,7 +202,10 @@ span {
 }
 
 .menu{
-
     width: 150px;
     height: 400px;
+}
+
+#checkbox{
+    
 }
