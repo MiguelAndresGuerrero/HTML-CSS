@@ -1,26 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> AdminSite </title>
+    <title>AdminSite Dashboard</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
-    <div class="container">
-
-        <div class="barrier1">
-
-        <img src="media/ccarita azul.png" alt="carita">
-        <h2> AdminSite </h2>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2><img src="media/ccarita azul.png" alt="logo" class="logo" style="width: 100px;"> AdminSite</h2>
         </div>
-
-        <div class="barrier2">
-
-        </div>
-        
+        <ul class="sidebar-menu">
+            <li class="active"><a href="#">Dashboard</a></li>
+            <li><a href="#">Elements</a></li>
+            <li><a href="#">Charts</a></li>
+            <li><a href="#">Widgets</a></li>
+            <li><a href="#">Tables</a></li>
+            <li><a href="#">Forms</a></li>
+        </ul>
     </div>
-    
+    <div class="main-content">
+        <header>
+            <h1>Dashboard</h1>
+            <nav>
+                <a href="#">Home</a> / <a href="#">Dashboard</a>
+            </nav>
+        </header>
+        <section class="cards">
+            <div class="card">
+                <h3>1500</h3>
+                <p>Traffic</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+                <span>40%</span>
+            </div>
+            <div class="card">
+                <h3>234</h3>
+                <p>Sales</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+                <span>60%</span>
+            </div>
+            <div class="card">
+                <h3>465</h3>
+                <p>Pageviews</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 30%;"></div>
+                </div>
+                <span>30%</span>
+            </div>
+            <div class="card">
+                <h3>235</h3>
+                <p>Visitors</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+                <span>80%</span>
+            </div>
+        </section>
+        <section class="report">
+            <h2>Sales Report</h2>
+            <p>Hola Mundo</p>
+        </section>
+    </div>
 </body>
 </html>
