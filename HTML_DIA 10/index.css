@@ -7,12 +7,12 @@ body {
 }
 
 .sidebar {
-    width: 250px;
-    color: #0004f8;
+    width: 200px;
+    color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding:10px;
 }
 
 .sidebar-header {
@@ -38,7 +38,8 @@ body {
 }
 
 .sidebar-menu li a {
-    color: white;
+    color: rgb(0, 0, 0);
+    
     text-decoration: none;
     display: block;
     padding: 10px 20px;
@@ -47,14 +48,14 @@ body {
 
 .sidebar-menu li a:hover,
 .sidebar-menu li.active a {
-    background-color: #1818be;
+    background-color: #0000fa;
 }
 
 .main-content {
     position: absolute;
     background-color: #b2b4b6;
     top: 100px;
-    left: 280px;
+    left: 230px;
     padding: 20px;
 }
 
@@ -63,7 +64,6 @@ div .card1 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-width: 250px;
-    border: 2px solid blue;
 }
 
 header {
@@ -140,7 +140,6 @@ span {
     margin: 0 0 10px;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     body {
         flex-direction: column;
@@ -200,4 +199,10 @@ span {
     .card {
         width: 100%;
     }
+}
+
+.menu{
+
+    width: 150px;
+    height: 400px;
 }
