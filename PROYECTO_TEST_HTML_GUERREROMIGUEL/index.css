@@ -1,23 +1,57 @@
 body {
+    position: absolute;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('MEDIA/Fondo@2x.png');
+    background-image: url('media/Fondo.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.header{
+
+.header {
     background-color: #3669c9;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
     width: 100%;
-    height: 20%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
-.header nav ul li {
+body {
+    padding-top: 60px;
+}
+
+img {
+    width: 300px;
+    position: relative;
+    right: auto;
+}
+
+nav ul {
     list-style: none;
+    display: flex;
+    gap: 90px;
+    margin: 20px;
+    padding: 10px;
 }
 
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
 
+.consultar-btn{
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    left: -50px;
+    position: relative;
+}
