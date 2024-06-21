@@ -4,77 +4,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Ingreso solidario </title>
+    <title>Ingreso solidario</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <header>
         <div class="header">
-            <nav>
-                <ul>
-                    <li><a href="index2.html">Inicio</a></li>
-                    <li><a href="index3.html"> ¿Que es?</a></li>
-                </ul>
-            </nav>
-            <img src="MEDIA/Republica.png" alt="Republica">
-            <nav>
-                <ul>
-                    <li><a href="index4.html"> Entrega</a></li>
-                </ul>
-            </nav>
-            <a href="Pagina1.html"><button class="consultar-btn"> Consultar </button></a>
+            <div class="btn1">
+                <a href="#seccion1">Inicio</a>
+            </div>
+            <div class="btn2">
+                <a href="#seccion2">¿Qué es?</a>
+            </div>
+            <img class="Republica" src="MEDIA/Republica.png" alt="Republica">
+            <div class="btn3">
+                <a href="#seccion3">Entrega</a>
+            </div>
+            <a href="index.html" class="consultar-btn">Consultar</a>
         </div>
     </header>
 
     <main>
-        <div class="container">
+        <div class="container" id="seccion1">
             <img src="MEDIA/Fondo@2x.png" alt="Fondo">
-
             <div class="container2">
-
                 <div class="contenedor">
-                    <h2>Consulta tu estado del <br> Ingreso <br> Solidario</h1>
+                    <h2>Consulta tu estado del <br> Ingreso <br> Solidario</h2>
                 </div>
-
                 <div class="contenedor2">
-                    <h4>Porfavor ingresa tus datos personales para revisar el estado de entrega de tu ingreso</h4>
+                    <h4>Por favor ingresa tus datos personales para revisar el estado de entrega de tu ingreso</h4>
                 </div>
                 <div class="contenedor3">
                     <form>
-                        <p>Tipo de Documento: </p>
+                        <label for="documento">Tipo de Documento:</label>
                         <select id="documento" name="Documento">
-                            <option value="id1">Targeta de Identidad</option>
-                            <option value="id2">Cedula de Ciudadania</option>
-                            <option value="id3">Numero de Identificacion personal</option>
+                            <option value="id1">Tarjeta de Identidad</option>
+                            <option value="id2">Cédula de Ciudadanía</option>
+                            <option value="id3">Número de Identificación Personal</option>
                         </select>
                     </form>
                 </div>
                 <div class="contenedor4">
-                    <p>Numero del Documento</p>
-                    <input type="text">
+                    <label for="numDocumento">Número del Documento</label>
+                    <input type="text" id="numDocumento">
                 </div>
                 <div class="contenedor5">
-                    <p>Primer Nombre</p>
-                    <input type="text">
+                    <label for="primerNombre">Primer Nombre</label>
+                    <input type="text" id="primerNombre">
                 </div>
                 <div class="contenedor6">
-                    <p>Primer Apellido</p>
-                    <input type="text">
+                    <label for="primerApellido">Primer Apellido</label>
+                    <input type="text" id="primerApellido">
                 </div>
                 <div class="contenedor7">
-                    <p>Fecha de expedicion del documento</p>
-                    <input type="date">
+                    <label for="fechaExpedicion">Fecha de expedición del documento</label>
+                    <input type="date" id="fechaExpedicion">
                 </div>
                 <div class="contenedor8">
-                    <p>Telefono Movil</p>
-                    <input type="tel">
+                    <label for="telefono">Teléfono Móvil</label>
+                    <input type="tel" id="telefono">
                 </div>
                 <div class="contenedor9">
-
+                    <button class="consultar-btn2">Consultar</button>
                 </div>
             </div>
+            <div class="container3">
+                <p>Debido a la situación generada por el COVID-19, el gobierno nacional aportará a las familias más
+                    afectadas y que no pertenezcan a ningún programa social, un subsidio por $160.000</p>
+            </div>
+            <div class="container4">
+                <p><b>Ingreso Solidario</b></p>
+            </div>
+            <a href="index3.html" class="consultar-btn3">Conoce más</a>
+        </div>
 
+        <div class="containerN1">
+            <div class="titulo1">
+                <p>¿Qué es el ingreso solidario?</p>
+            </div>
+            <div class="containerN3">
+                <div class="texto1">
+                    <p>Es un esquema mediante el cual se entrega una transferencia monetaria en favor de los hogares en
+                        situación de pobreza y vulnerabilidad que no sean beneficiarios de programas sociales del
+                        estado.</p>
+                </div>
+                <div class="texto2">
+                    <p>Los hogares en condición de pobreza y vulnerabilidad, afectados en sus ingresos como consecuencia
+                        de la pandemia del coronavirus, que no hagan parte de los programas sociales "Familias en
+                        Acción", "Colombia Mayor", "Jóvenes en Acción" y "Devoluciones del IVA" podrán acceder a esta
+                        medida social.</p>
+                </div>
+            </div>
+            <div class="containerN4">
+                <img src="MEDIA/Diseño.png" alt="Diseño">
+            </div>
+            <div class="containerN6" id="seccion2">
+                <a href="index4.html">Conoce las etapas de entrega</a>
+                <img src="MEDIA/FlechaAbajo.png" alt="FlechaAbajo">
+            </div>
+        </div>
+
+        <div class="Universal">
+            <div class="contenedorP">
+                <div class="ContenedorN1">
+                    <p>Etapas de Entrega</p>
+                </div>
+                <div class="ContenedorN2">
+                    <p>Etapa 1</p>
+                </div>
+                <div class="cont">
+                    <p>Desde el 7 de Abril</p>
+                </div>
+                <div class="ContenedorN3">
+                    <p>Etapa 2</p>
+                </div>
+                <div class="Cont2">
+                    <p>9 de Abril al 18 de Abril</p>
+                </div>
+                <div class="ContenedorN4">
+                    <p>Etapa 3</p>
+                </div>
+                <div class="Cont3">
+                    <p>18 de Abril al 25 de Abril</p>
+                </div>
+                <div class="ContenedorN5-2">
+                    <div class="ContenedorN5">
+                        <p>Bancos Autorizados</p>
+                    </div>
+                </div>
+                <div class="Universal2">
+                    <div class="ContenedorN6">
+                        <img src="MEDIA/Bancamia.png" alt="Bancamia">
+                    </div>
+                    <div class="ContenedorN7">
+                        <img src="MEDIA/Bancolombia.png" alt="Bancolombia">
+                    </div>
+                    <div class="ContenedorN8">
+                        <img src="MEDIA/Banco-Caja-Social.png" alt="Banco-Caja-Social">
+                    </div>
+                    <div class="ContenedorN9">
+                        <img src="MEDIA/Logo_Movii.png" alt="Movii">
+                    </div>
+                    <div class="ContenedorN10">
+                        <img src="MEDIA/DaviPlata.png" alt="DaviPlata">
+                    </div>
+                </div>
+                <div class="Universal3">
+                    <div class="containerN6">
+                        <a href="seccion4.html">Preguntas frecuentes</a>
+                        <img src="MEDIA/FlechaAbajo.png" alt="FlechaAbajo">
+                    </div>
+                    <div class="SECCIONES" id="seccion3">
+                        <h1>HOLA</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </body>
