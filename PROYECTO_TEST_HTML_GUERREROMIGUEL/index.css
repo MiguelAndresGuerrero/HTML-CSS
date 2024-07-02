@@ -4,15 +4,16 @@
 
 .header {
     background-color: #3669c9;
-    padding: 10px 40px;
+    padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000;
+    width: 1920px;
+    height: 82px;
+    z-index: 1;
 }
 
 body {
@@ -25,13 +26,12 @@ body {
 }
 
 .Republica {
-    width: 170px;
-    position: absolute;
-    margin-left: 560px;
+    margin-right: 100px;
+    width: 360px;
 }
 
 .btn1 a {
-    position: absolute;
+    font-size: 25px;
     color: white;
     text-decoration: none;
     margin-left: 200px;
@@ -39,21 +39,22 @@ body {
 }
 
 .btn2 a {
+    font-size: 25px;
     color: white;
-    position: absolute;
-    margin-top: -10px;
+    margin-left: 100px;
     text-decoration: none;
 }
 
 .btn3 a {
+    font-size: 25px;
     color: white;
-    position: absolute;
     text-decoration: none;
-    margin-left: 100px;
-    margin-top: -10px;
+    margin-right: 300px;
 }
 
 .consultar-btn {
+    font-size: 25px;
+    position: relative;
     background-color: #ffffff;
     color: #000000;
     border: none;
@@ -61,76 +62,68 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 50px;
-    left: -100px;
-    position: relative;
+    left: -200px;
 }
 
 .container img {
     position: absolute;
-    top: 55px;
-    width: 1349px;
-    height: 600px;
+    top: 120px;
+    width: 100vw;
+    height: 80vh;
 }
 
 .container2 {
     background-color: rgb(252, 251, 251);
     position: absolute;
     border-radius: 20px;
-    margin-top: 80px;
+    margin-top: 150px;
     left: 100px;
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 650px;
 }
 
 .contenedor {
-    width: 300px;
+    width: 80%;
     text-align: center;
-    position: absolute;
-    margin-top: -10px;
     margin-left: 50px;
 }
 
 .contenedor2 {
-    position: absolute;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 10px;
     width: 300px;
-    margin-left: 50px;
-    font-size: 10px;
+    margin-left: 100px;
+    font-size: 12px;
 }
 
 .contenedor3 {
-    position: absolute;
-    margin-top: 110px;
-    margin-left: 10%;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-.contenedor3 form p {
-    font-size: 12px;
+.contenedor3 label{
+    font-size: 14px;
+    margin: 30px;
 }
 
 .contenedor3 select {
-    width: 300px;
-    height: 20px;
+    margin-left: 6%;
+    width: 400px;
+    height: 24px;
 }
 
 .contenedor4 {
-    position: absolute;
-    margin-top: 170px;
-    margin-left: 10%;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 39px;
 }
 
 .contenedor4 input {
-    width: 292px;
-    height: 12px;
-}
-
-.contenedor4 p {
-    font-size: 12px;
+    width: 392px;
+    height: 16px;
 }
 
 .contenedor5 {
-    position: absolute;
     margin-top: 220px;
     margin-left: 10%;
 }
@@ -708,8 +701,8 @@ footer {
     background-color: #3366cc;
     color: white;
     text-align: left;
-    padding: 10px 20px;
-    width: 1309px;
+    padding: 20px 300px;
+    width: 100%;
 }
 
 .footer-container {
