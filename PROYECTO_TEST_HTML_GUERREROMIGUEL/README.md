@@ -24,22 +24,22 @@ TECNOLOGÍAS UTILIZADAS:
 
 ESTRUCTURA DEL PROYECTO:
  PROYECTO_TEST_GUERREROMIGUEL/ 
- | |_media/ 
- |_Bancamia.png 
- |_Banco-Caja-Social.png 
- |_Bancolombia.png 
- |_DaviPlata.png 
- |_Diseño.png 
- |_Facebook.png 
- |_Flecha Abajo.png 
- |_Fondo@2x.png 
- |_Gobierno.png 
- |_Instagram.png 
- |_Logotipo de Movii.png 
- |_República.png 
- |_Twitter.png 
- |_index.css 
- |_index.html
+ |  |_media/ 
+    |   |_Bancamia.png 
+    |   |_Banco-Caja-Social.png 
+    |   |_Bancolombia.png 
+    |   |_DaviPlata.png 
+    |   |_Diseño.png 
+    |   |_Facebook.png 
+    |   |_Flecha Abajo.png 
+    |   |_Fondo@2x.png 
+    |   |_Gobierno.png 
+    |   |_Instagram.png 
+    |   |_Logotipo de Movii.png 
+    |   |_República.png 
+    |   |_Twitter.png 
+    |_index.css 
+    |_index.html
 
 La carpeta "media" contiene todas las imágenes en la página web. 
 El archivo "index.css" contiene los estilos CSS de la página web. 
