@@ -11,7 +11,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 1920px;
+    width: 100vw;
     height: 82px;
     z-index: 1;
 }
@@ -26,7 +26,6 @@ body {
 }
 
 .Republica {
-    margin-right: 100px;
     width: 360px;
 }
 
@@ -108,7 +107,7 @@ body {
 
 .contenedor3 select {
     margin-left: 6%;
-    width: 400px;
+    width: 82%;
     height: 24px;
 }
 
@@ -119,73 +118,82 @@ body {
 }
 
 .contenedor4 input {
-    width: 392px;
+    width: 85%;
     height: 16px;
 }
 
 .contenedor5 {
-    margin-top: 220px;
-    margin-left: 10%;
+    margin-top: 15px;
+    margin-left: 39px;
 }
 
 .contenedor5 input {
-    width: 292px;
-    height: 12px;
-}
-
-.contenedor5 p {
-    font-size: 12px;
-}
-
-.contenedor6 {
-    position: absolute;
-    margin-top: 270px;
-    margin-left: 10%;
-}
-
-.contenedor6 input {
-    width: 292px;
-    height: 12px;
-}
-
-.contenedor6 p {
-    font-size: 12px;
-}
-
-.contenedor7 {
-    position: absolute;
-    margin-top: 320px;
-    margin-left: 10%;
-}
-
-.contenedor7 input {
-    width: 295px;
-    height: 16px;
-}
-
-.contenedor7 p {
-    font-size: 12px;
-}
-
-.contenedor8 {
-    position: absolute;
-    margin-top: 370px;
-    margin-left: 10%;
-}
-
-.contenedor8 input {
-    width: 292px;
+    width: 85%;
     height: 15px;
 }
 
-.contenedor8 p {
-    font-size: 12px;
+.contenedor5 label {
+    font-size: 14px;
+}
+
+.contenedor6 {
+    margin-top: 15px;
+    margin-left: 7%;
+}
+
+.contenedor6 input {
+    width: 85.4%;
+    height: 15px;
+}
+
+.contenedor6 label {
+    font-size: 14px;
+}
+
+.contenedor7 {
+    margin-top: 15px;
+    margin-left: 7%;
+}
+
+.contenedor7 input {
+    width: 86%;
+    height: 15px;
+}
+
+.contenedor7 label {
+    font-size: 14px;
+}
+
+.contenedor8 {
+    margin-top: 15px;
+    margin-left: 7%;
+}
+
+.contenedor8 input {
+    width: 85.4%;
+    height: 15px;
+}
+
+.contenedor8 label {
+    font-size: 14px;
 }
 
 .contenedor9 {
-    position: absolute;
-    margin-top: 450px;
+    margin-top: 15px;
     margin-left: 50%;
+}
+
+.contenedor10 .consultar-btn2{
+    background-color: #006cfa;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 400px;
+    margin-left: 930px;
+    position: relative;
 }
 
 .consultar-btn2 {
@@ -202,7 +210,7 @@ body {
 
 .container3 {
     position: absolute;
-    width: 500px;
+    width: 450px;
     height: 120px;
     margin-top: 280px;
     margin-left: 700px;
@@ -265,7 +273,7 @@ body {
 .containerN6 a {
     position: absolute;
     margin-top: 450px;
-    margin-left: 450px;
+    margin-left: 420px;
     width: 220px;
     height: 40px;
     text-decoration: none;
