@@ -6,13 +6,10 @@
     background-color: #3669c9;
     padding: 20px 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 94.6vw;
-    height: 81px;
+    width: 100vw;
+    height: 82px;
     z-index: 1;
 }
 
@@ -27,43 +24,6 @@ body {
 
 .Republica {
     width: 360px;
-}
-.UNIVERSE1{
-    margin-left: 300px;
-    margin-top: 10px;
-}
-
-.btn1 a {
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    margin-top: -10px;
-}
-
-.btn2 a {
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-}
-
-.btn3 a {
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    margin-right: 300px;
-}
-
-.consultar-btn {
-    font-size: 25px;
-    position: relative;
-    background-color: #ffffff;
-    color: #000000;
-    border: none;
-    text-decoration: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 50px;
-    left: -200px;
 }
 
 .container img {
@@ -572,7 +532,7 @@ body {
 
     margin-left: 50%;
     position: absolute;
-    background-color: #2500fa;
+    background-color: rgb(0, 60, 255);
     color: white;
     border-radius: 50px;
     width: 30px;
@@ -590,7 +550,7 @@ body {
 .caja2-1 {
     margin-left: 50%;
     position: absolute;
-    background-color: #2500fa;
+    background-color: rgb(0, 60, 255);;
     color: white;
     border-radius: 50px;
     width: 30px;
@@ -639,7 +599,7 @@ body {
 .caja2-3 {
     margin-left: 50%;
     position: absolute;
-    background-color: #2500fa;
+    background-color: rgb(0, 60, 255);
     color: white;
     border-radius: 50px;
     width: 30px;
@@ -678,10 +638,9 @@ body {
 .footer {
     margin-top: 120px;
     text-align: center;
-    background-color: #157FFB;
-    opacity: 1;
+    background-color: rgb(0, 60, 255);
     border-radius: 59px;
-    width: 950px;
+    width: 100%;
     height: 150px;
 }
 
@@ -691,6 +650,37 @@ body {
 
 .footer p {
     color: white;
+}
+
+footer {
+    position: absolute;
+    margin-top: 360px;
+    background-color: #3366cc;
+    color: white;
+    padding: 20px 10px;
+    width: 100vw;
+    height: 14vh;
+}
+
+.footer1{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.imagen1 img{
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: -20px;
+}
+
+.footer2{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -20px;
 }
 
 .Boton{
@@ -706,26 +696,6 @@ body {
     text-decoration: none;
 }
 
-footer {
-    margin-top: 400px;
-    background-color: #3366cc;
-    color: white;
-    text-align: left;
-    padding: 20px 300px;
-    width: 100%;
-}
-
-.footer-container {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imagen1 img{
-    width: 500px;
-}
-
 .Universal7{
     position: absolute;
     margin-top: 1600px;
@@ -738,24 +708,157 @@ footer {
     color: white;
 }
 
+.BOTON1{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.BOTON2{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.BOTON3{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.BOTON4{
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
 @media only screen and (max-width:1100px){
     .Republica{
-        width: 200px;
+        width: 300px;
         position: absolute;
         margin-left: -60px;
     }
-    .btn1{
+    .BOTON1{
+        font-size: 20px;
+        margin-left: 250px;
+    }
+    .BOTON2{
+        margin-left: 100px;
+        font-size: 20px;
         
     }
-    .btn2{
-        margin-left: 20px;
-        text-align:right;
-        font-size: 10px;
-        width: 50px;
-    }
-    .btn3{
-        font-size: 10px;
-        margin-left: 30px;
+    .BOTON3{
+        font-size: 20px;
+        margin-left: 100px;
     }
     
+}
+/*Tablet*/
+@media only screen and (max-width:800px){
+    .Republica{
+        display: none;
+    }
+    .BOTON1{
+        margin-left: 10px;
+    }
+    .BOTON2{
+        margin-left: 30px;
+        margin-right: 80px;
+        text-align: center;
+    }
+    .BOTON3{
+        margin-left: 30px;
+    }
+
+    .containerN4{
+        display: none;
+    }
+    .container2{
+        margin-left: -77px;
+        width: 500px;
+        height: 600px;
+    }
+    .container3{
+        position: absolute;
+        margin-left: 50px;
+        top: 580px;
+    }
+    .container4{
+        top: 600px;
+        right: 560px;
+    }
+    .contenedor10 button{
+        top: 600px;
+        left: -720px;
+        width: 120px;
+    }
+    .containerN6{
+        margin-left: -140px;
+    }
+    .ContenedorN1{
+        margin-top: 100px;
+        margin-left: 220px;
+    }
+    .ContenedorN2{
+        margin-left: 40px;
+    }
+    .ContenedorN3{
+        margin-left: 300px;
+    }
+    .ContenedorN4{
+        margin-left: 600px;
+    }
+    /* corregir el error de N5 */
+    .ContenedorN5{
+        margin-top: 100px;
+        margin-left: -300px;
+    }
+    .ContenedorN6 img{
+        width: 120px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .ContenedorN7 img{
+        width: 150px;
+        margin-top: 90px;
+        margin-left: 300px;
+    }
+    .ContenedorN8 img{
+        width: 200px;
+        margin-top: 110px;
+        margin-left: 500px;
+    }
+    .ContenedorN9 img{
+        width: 150px;
+        margin-top: 210px;
+        margin-left: 180px;
+    }
+    .ContenedorN10 img{
+        width: 150px;
+        margin-top: 170px;
+        margin-left: 400px;
+    }
+    .containerN6{
+        margin-left: -250px;
+    }
+    .cont{
+        margin-left: 1px;
+    }
+    .Cont2{
+        margin-left: 230px;
+    }
+    .Cont3{
+        margin-left: 500px;
+    }
 }
