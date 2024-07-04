@@ -1,0 +1,159 @@
+body {
+    background-image: url(media/template.png);
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imagenes img {
+    position: absolute;
+    left: 73vw;
+    top: 42vh;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+
+.imagen1{
+    animation-name: animacion1;
+    animation-duration: 1s;
+    animation-delay: 0.1;
+}
+
+.imagen2{
+    animation-name: animacion2;
+    animation-duration: 1s;
+    animation-delay: 0.2;
+}
+
+.imagen3{
+    animation-name: animacion3;
+    animation-duration: 1s;
+    animation-delay: 0.3;
+}
+
+.imagen4{
+    animation-name: animacion4;
+    animation-duration: 1s;
+    animation-delay: 0.4;
+}
+
+.imagen5{
+    animation-name: animacion5;
+    animation-duration: 1s;
+    animation-delay: 0.5;
+}
+
+.imagen6{
+    animation-name: animacion6;
+    animation-duration: 1s;
+    animation-delay: 0.6;
+}
+
+.imagen7{
+    animation-name: animacion7;
+    animation-duration: 1s;
+    animation-delay: 0.7;
+}
+
+.imagen8{
+    animation-name: animacion8;
+    animation-duration: 1s;
+    animation-delay: 0.8;
+}
+
+.imagen9{
+    animation-name: animacion9;
+    animation-duration: 1s;
+    animation-delay: 0.9;
+}
+
+.imagen10{
+    animation-name: animacion10;
+    animation-duration: 1s;
+    animation-delay: 0.10;
+}
+
+@keyframes animacion1{
+    0%{
+        opacity: 1;
+    }
+    1%{
+        opacity: 0;
+    }
+
+}
+
+@keyframes animacion2{
+    0%{
+        opacity: 1;
+    }
+    1%{
+        opacity: 0;
+    }
+}
+
+@keyframes animacion3{
+    0%{
+        opacity: 1;
+    }
+    1%{
+        opacity: 0;
+    }
+}
+
+@keyframes animacion4{
+    0%{
+        opacity: 1;
+    }
+    1%{
+        opacity: 0;
+    }
+}
+
+@keyframes animacion5{
+    0%{
+        opacity: 1;
+    }
+    1%{
+        opacity: 0;
+    }
+    
+}
+
+@keyframes animacion6{
+    0%{
+        opacity: 1;
+    }
+
+}
+
+@keyframes animacion7{
+    0%{
+        opacity: 1;
+    }
+
+}
+
+@keyframes animacion8{
+    0%{
+        opacity: 1;
+    }
+
+}
+
+@keyframes animacion9{
+    0%{
+        opacity: 1;
+    }
+
+}
+
+@keyframes animacion10{
+    0%{
+        opacity: 1;
+    }
+  
+}

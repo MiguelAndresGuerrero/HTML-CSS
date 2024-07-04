@@ -22,7 +22,7 @@ body {
         left: 0px;
     }
     to {
-        left: 900px;
+        left: 100vw;
     }
 }
 
@@ -40,6 +40,6 @@ body {
         left: 0px;
     }
     to {
-        left: 900px;
+        left: 100vw;
     }
 }

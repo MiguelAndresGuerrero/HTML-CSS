@@ -1,0 +1,25 @@
+body{
+    background-color: #f3dcbe;
+}
+
+.contenedor2{
+    background-color: whitesmoke;
+    width: 30vw;
+    height: 40vh;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.contenedor2 img{
+    width: 20%;
+    border-radius: 100%;
+    border: 1px solid black;
+    border-style:double;
+    margin-left: 35%;
+    margin-top: -30px;
+}
+
+.contenedor3{
+    background-color: white;
+    width: 400px;
+}
