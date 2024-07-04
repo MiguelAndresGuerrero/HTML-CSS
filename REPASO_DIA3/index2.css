@@ -1,0 +1,26 @@
+body {
+    background-image: url(media/sky.jpg);
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nube1 {
+    position: relative;
+    animation-name: nube1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nube1{
+    from {
+        left: 0px;
+    }
+    to {
+        left: 900px;
+    }
+}
