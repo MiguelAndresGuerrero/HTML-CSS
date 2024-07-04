@@ -9,14 +9,33 @@ body {
 }
 
 .nube1 {
+    margin-top: 30px;
     position: relative;
     animation-name: nube1;
-    animation-fill-mode: forwards;
+    animation-duration: 10s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
 }
 
 @keyframes nube1{
+    from {
+        left: 0px;
+    }
+    to {
+        left: 900px;
+    }
+}
+
+.nube2{
+    margin-top: 30px;
+    position: relative;
+    animation-name: nube2;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nube2{
     from {
         left: 0px;
     }
