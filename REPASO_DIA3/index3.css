@@ -10,8 +10,8 @@ body {
 
 .imagenes img {
     position: absolute;
-    left: 73vw;
-    top: 42vh;
+    left: 62vw;
+    top: 14vh;
     opacity: 0;
     animation-iteration-count: infinite;
 }
@@ -19,68 +19,68 @@ body {
 .imagen1{
     animation-name: animacion1;
     animation-duration: 1s;
-    animation-delay: 0.1;
+    animation-delay: 0.1s;
 }
 
 .imagen2{
     animation-name: animacion2;
     animation-duration: 1s;
-    animation-delay: 0.2;
+    animation-delay: 0.2s;
 }
 
 .imagen3{
     animation-name: animacion3;
     animation-duration: 1s;
-    animation-delay: 0.3;
+    animation-delay: 0.3s;
 }
 
 .imagen4{
     animation-name: animacion4;
     animation-duration: 1s;
-    animation-delay: 0.4;
+    animation-delay: 0.4s;
 }
 
 .imagen5{
     animation-name: animacion5;
     animation-duration: 1s;
-    animation-delay: 0.5;
+    animation-delay: 0.5s;
 }
 
 .imagen6{
     animation-name: animacion6;
     animation-duration: 1s;
-    animation-delay: 0.6;
+    animation-delay: 0.6s;
 }
 
 .imagen7{
     animation-name: animacion7;
     animation-duration: 1s;
-    animation-delay: 0.7;
+    animation-delay: 0.7s;
 }
 
 .imagen8{
     animation-name: animacion8;
     animation-duration: 1s;
-    animation-delay: 0.8;
+    animation-delay: 0.8s;
 }
 
 .imagen9{
     animation-name: animacion9;
     animation-duration: 1s;
-    animation-delay: 0.9;
+    animation-delay: 0.9s;
 }
 
 .imagen10{
     animation-name: animacion10;
     animation-duration: 1s;
-    animation-delay: 0.10;
+    animation-delay: 0.10s;
 }
 
 @keyframes animacion1{
     0%{
         opacity: 1;
     }
-    1%{
+    100%{
         opacity: 0;
     }
 
@@ -90,7 +90,7 @@ body {
     0%{
         opacity: 1;
     }
-    1%{
+    100%{
         opacity: 0;
     }
 }
@@ -99,7 +99,7 @@ body {
     0%{
         opacity: 1;
     }
-    1%{
+    100%{
         opacity: 0;
     }
 }
@@ -108,7 +108,7 @@ body {
     0%{
         opacity: 1;
     }
-    1%{
+    100%{
         opacity: 0;
     }
 }
@@ -117,7 +117,7 @@ body {
     0%{
         opacity: 1;
     }
-    1%{
+    100%{
         opacity: 0;
     }
     
@@ -127,12 +127,18 @@ body {
     0%{
         opacity: 1;
     }
+    100%{
+        opacity: 0;
+    }
 
 }
 
 @keyframes animacion7{
     0%{
         opacity: 1;
+    }
+    100%{
+        opacity: 0;
     }
 
 }
@@ -141,6 +147,9 @@ body {
     0%{
         opacity: 1;
     }
+    100%{
+        opacity: 0;
+    }
 
 }
 
@@ -148,12 +157,32 @@ body {
     0%{
         opacity: 1;
     }
-
+    100%{
+        opacity: 0;
+    }
 }
 
 @keyframes animacion10{
     0%{
         opacity: 1;
     }
-  
+    100%{
+        opacity: 0;
+    }
+}
+
+.image{
+    position: relative;
+    animation-name: Animation2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Animation2{
+    from{
+        margin-right: 1vw;
+    }
+    to{
+        margin-right: 100vw;
+    }
 }

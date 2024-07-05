@@ -6,6 +6,22 @@ body{
     background-color: #f3dcbe;
 }
 
+.contenedor{
+    position: relative;
+    animation-name: Animacion1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 21vw;
+}
+
+@keyframes Animacion1{
+    0% {margin-top: 40vw;}
+    25% {margin-top: 10vw;}
+    40% {margin-top: 12vw;}
+    60% {margin-top: 10vw;}
+    100% {margin-top: 10vw;}
+}
+
 .contenedor2{
     background-color: whitesmoke;
     width: 30vw;
@@ -59,7 +75,7 @@ body{
     cursor: pointer;
     cursor: -moz-grab;
     font-size: 20px;
-    transition: background-color 0.2s;
+    transition: background-color 1.5s;
 }
 
 .btn:hover{
