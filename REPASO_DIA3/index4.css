@@ -11,7 +11,7 @@ body{
     animation-name: Animacion1;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    margin-top: 21vw;
+    margin-top: 25vw;
 }
 
 @keyframes Animacion1{
@@ -25,22 +25,22 @@ body{
 .contenedor2{
     background-color: whitesmoke;
     width: 30vw;
-    height: 50vh;
+    height: 40vh;
     margin-left: 35vw;
     margin-top: 100px;
 }
 
 .contenedor2 img{
-    width: 20%;
+    width: 30%;
     border-radius: 100%;
-    margin-left: 28vh;
-    margin-top: -30px;
+    margin-left: 22vh;
+    margin-top: -100px;
 }
 
 .contenedor3{
     width: 400px;
     margin-left: 85vh;
-    margin-top: -250px;
+    margin-top: -270px;
 }
 
 .contenedor3 p{

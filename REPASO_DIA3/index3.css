@@ -10,77 +10,81 @@ body {
 
 .imagenes img {
     position: absolute;
-    left: 62vw;
-    top: 14vh;
+    left: 60vw;
+    margin-top: 40vh;
     opacity: 0;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .imagen1{
     animation-name: animacion1;
     animation-duration: 1s;
-    animation-delay: 0.1s;
+    animation-delay: 0s;
 }
 
 .imagen2{
     animation-name: animacion2;
     animation-duration: 1s;
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
 
 .imagen3{
     animation-name: animacion3;
     animation-duration: 1s;
-    animation-delay: 0.3s;
+    animation-delay: 0.2s;
 }
 
 .imagen4{
     animation-name: animacion4;
     animation-duration: 1s;
-    animation-delay: 0.4s;
+    animation-delay: 0.3s;
 }
 
 .imagen5{
     animation-name: animacion5;
     animation-duration: 1s;
-    animation-delay: 0.5s;
+    animation-delay: 0.4s;
 }
 
 .imagen6{
     animation-name: animacion6;
     animation-duration: 1s;
-    animation-delay: 0.6s;
+    animation-delay: 0.5s;
 }
 
 .imagen7{
     animation-name: animacion7;
     animation-duration: 1s;
-    animation-delay: 0.7s;
+    animation-delay: 0.6s;
 }
 
 .imagen8{
     animation-name: animacion8;
     animation-duration: 1s;
-    animation-delay: 0.8s;
+    animation-delay: 0.7s;
 }
 
 .imagen9{
     animation-name: animacion9;
     animation-duration: 1s;
-    animation-delay: 0.9s;
+    animation-delay: 0.8s;
 }
 
 .imagen10{
     animation-name: animacion10;
     animation-duration: 1s;
-    animation-delay: 0.10s;
+    animation-delay: 0.9s;
 }
 
 @keyframes animacion1{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
+        opacity: 1;
+    }
+    15%{
         opacity: 0;
     }
 
@@ -90,7 +94,10 @@ body {
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
+        opacity: 1;
+    }
+    15%{
         opacity: 0;
     }
 }
@@ -99,7 +106,10 @@ body {
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
+        opacity: 1;
+    }
+    15%{
         opacity: 0;
     }
 }
@@ -108,7 +118,10 @@ body {
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
+        opacity: 1;
+    }
+    15%{
         opacity: 0;
     }
 }
@@ -117,47 +130,58 @@ body {
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
+        opacity: 1;
+    }
+    15%{
         opacity: 0;
     }
-    
 }
 
 @keyframes animacion6{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
+        opacity: 1;
+    }
+    15%{
         opacity: 0;
     }
-
 }
 
 @keyframes animacion7{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
+        opacity: 1;
+    }
+    15%{
         opacity: 0;
     }
-
 }
 
 @keyframes animacion8{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
+        opacity: 1;
+    }
+    15%{
         opacity: 0;
     }
-
 }
 
 @keyframes animacion9{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
+        opacity: 1;
+    }
+    15%{
         opacity: 0;
     }
 }
@@ -166,7 +190,10 @@ body {
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
+        opacity: 1;
+    }
+    15%{
         opacity: 0;
     }
 }
@@ -183,6 +210,6 @@ body {
         margin-left: 0vw;
     }
     to{
-        margin-left: - 100vw;
+        margin-left: -100vw;
     }
 }
