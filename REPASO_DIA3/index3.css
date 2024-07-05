@@ -171,7 +171,7 @@ body {
     }
 }
 
-.image{
+.imagenes{
     position: relative;
     animation-name: Animation2;
     animation-duration: 10s;
@@ -180,9 +180,9 @@ body {
 
 @keyframes Animation2{
     from{
-        margin-right: 1vw;
+        margin-left: 0vw;
     }
     to{
-        margin-right: 100vw;
+        margin-left: - 100vw;
     }
 }
