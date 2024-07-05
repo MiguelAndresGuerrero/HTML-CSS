@@ -207,7 +207,7 @@ body {
 
 @keyframes Animation2{
     from{
-        margin-left: 0vw;
+        margin-left: 30vw;
     }
     to{
         margin-left: -100vw;
