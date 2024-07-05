@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
     background-color: #f3dcbe;
 }
@@ -5,21 +9,59 @@ body{
 .contenedor2{
     background-color: whitesmoke;
     width: 30vw;
-    height: 40vh;
-    margin-left: 700px;
+    height: 50vh;
+    margin-left: 35vw;
     margin-top: 100px;
 }
 
 .contenedor2 img{
     width: 20%;
     border-radius: 100%;
-    border: 1px solid black;
-    border-style:double;
-    margin-left: 35%;
+    margin-left: 28vh;
     margin-top: -30px;
 }
 
 .contenedor3{
-    background-color: white;
     width: 400px;
+    margin-left: 85vh;
+    margin-top: -250px;
+}
+
+.contenedor3 p{
+    color: rgb(233, 30, 30);
+    font-size: 25px;
+}
+
+.contenedor4{
+    text-align: center;
+}
+
+.btn{
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -90px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(12, 169, 231);
+    border: none;
+    cursor: pointer;
+    cursor: -moz-grab;
+    font-size: 20px;
+    transition: background-color 0.2s;
+}
+
+.btn:hover{
+    background-color: rgb(255, 0, 0);
 }

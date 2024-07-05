@@ -1,145 +1,147 @@
-*{
+body{
+    background-color: #2c333a;
     font-family: 'Alfa Slab One', cursive;
-    font-size:2rem;
-    animation-iteration-count: infinite;
-}
-
-body {
-    background:#2c333a;
 }
 
 .contenedor{
-    margin-left: -20%;
-    text-align: center;
+    position: relative;
+    margin-top: 3vw;
+    margin-left: 30vw ;
+    width: 60vw;
+    height: 20vw;
+    text-align: left;
+    animation-iteration-count: infinite;
 }
 
 .letra1{
-    margin-left: 100px;
-}
-
-.letra1 p{
-    color: rgb(160, 228, 194);
-    transition-delay: 1s;
-    transform: rotateX(90deg);
+    position: relative;
+    color: rgb(160,228,194);
+    top: 6vw;
+    left: 10vw;
+    font-size: 6vw;
     animation-name: letra1;
-    animation-duration: 2s;
+    animation-duration: 10s;
+    rotate: x -90deg;
 }
 
 @keyframes letra1{
-    0%{rotate: x 0deg;}
-    20%{rotate: x 90deg;}
+    0%{rotate: x -90deg}
+    25%{rotate: x 0deg}
+    30%{rotate: x -180deg;}
+    100%{rotate: x -180deg;}
 }
 
 .letra2{
-    margin-top: -154px;
-    margin-left: 218px;
-}
-
-.letra2 p{
-    color: rgb(178, 174, 228);
-    transition-delay: 2s;
-    transform: rotateX(90deg);
+    position: relative;
+    font-size: 6vw;
+    top: -8vw;
+    left: 15vw;
     animation-name: letra2;
-    animation-duration: 2s;
-    animation-delay: 0.5s;  /* se aumenta */
+    animation-duration: 10s;
+    animation-delay: 0.6s;
+    rotate: x -90deg;
+    color: rgb(178,174,228);
 }
 
 @keyframes letra2{
-    0%{rotate: x 90deg;}
-    20%{rotate: x 60deg;}
+    0%{rotate: x -90deg}
+    25%{rotate: x 0deg}
+    30%{rotate: x -180deg;}
+    100%{rotate: x -180deg;}
+   
 }
 
 .letra3{
-    margin-left: 350px;
-    margin-top: -154px;
-}
-
-.letra3 p{
-    color: rgb(160, 228, 194);
-    transition-delay: 3s;
-    transform: rotateX(90deg);
+    position: relative;
+    font-size: 5vw;
+    top: -22vw;
+    left: 20vw;
     animation-name: letra3;
-    animation-duration: 2s;
-    animation-delay: 1s;
+    animation-duration: 10s;
+    animation-delay: 0.9s;
+    rotate: x -90deg;
+    color: rgb(160,228,194);
 }
 
 @keyframes letra3{
-    0%{rotate: x 90deg;}
-    20%{rotate: x 60deg;}
+    0%{rotate: x -90deg}
+    25%{rotate: x 0deg}
+    30%{rotate: x -180deg;}
+    100%{rotate: x -180deg;}
 }
 
 .letra4{
-    margin-top: -154px;
-    margin-left: 500px;
-}
-
-.letra4 p{
-    color: rgb(178, 174, 228);
-    transition-delay: 4s;
-    transform: rotateX(90deg);
+    position: relative;
+    font-size: 6vw;
+    top: -36vw;
+    left: 25vw;
     animation-name: letra4;
-    animation-duration: 2s;
-    animation-delay: 1.5s;
+    animation-duration: 10s;
+    animation-delay: 1.3s;
+    rotate: x -90deg;
+    color: rgb(178,174,228);
 }
 
 @keyframes letra4{
-    0%{rotate: x 90deg;}
-    20%{rotate: x 60deg;}
+    0%{rotate: x -90deg}
+    25%{rotate: x 0deg}
+    30%{rotate: x -180deg;}
+    100%{rotate: x -180deg;}
 }
 
 .letra5{
-    margin-top: -154px;
-    margin-left: 630px;
-}
-
-.letra5 p {
-    color: rgb(160, 228, 194);
-    transition-delay: 5s;
-    transform: rotateX(90deg);
+    position: relative;
+    font-size: 6vw;
+    top: -50vw;
+    left: 30vw;
     animation-name: letra5;
-    animation-duration: 2s;
-    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-delay: 1.6s;
+    rotate: x -90deg;
+    color: rgb(160,228,194);
 }
 
 @keyframes letra5{
-    0%{rotate: x 90deg;}
-    20%{rotate: x 60deg;}
+    0%{rotate: x -90deg}
+    25%{rotate: x 0deg}
+    30%{rotate: x -180deg;}
+    100%{rotate: x -180deg;}
 }
 
 .letra6{
-    margin-top: -154px;
-    margin-left: 750px;
-}
-
-.letra6 p{
-    color: rgb(178, 174, 228);
-    transition-delay: 6s;
-    transform: rotateX(90deg);
+    position: relative;
+    font-size: 4vw;
+    top: -62vw;
+    left: 34vw;
     animation-name: letra6;
-    animation-duration: 2s;
-    animation-delay: 1.5s;
+    animation-duration: 10s;
+    animation-delay: 1.8s;
+    rotate: x -90deg;
+    color: rgb(178,174,228);
 }
 
 @keyframes letra6{
-    0%{rotate: x 90deg;}
-    20%{rotate: x 60deg;}
+    0%{rotate: x -90deg}
+    25%{rotate: x 0deg }
+    30%{rotate: x -180deg;top: -63.8vw}
+    100%{rotate: x -180deg;top: -63.8vw}
 }
 
 .letra7{
-    margin-top: -154px;
-    margin-left: 870px;
-}
-
-.letra7 p{
-    color: rgb(160, 228, 194);
-    transition-delay: 7s;
-    transform: rotateX(90deg);
+    position: relative;
+    font-size: 4vw;
+    top: -72.5vw;
+    left: 37vw;
+    color: rgb(160,228,194);
     animation-name: letra7;
-    animation-duration: 2s;
-    animation-delay: 1.5s;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    rotate: x -90deg;
 }
 
 @keyframes letra7{
-    0%{rotate: x 90deg;}
-    20%{rotate: x 60deg;}
+    0%{rotate: x -90deg}
+    25%{rotate: x 0deg }
+    30%{rotate: x -180deg;top: -73vw;}
+    100%{rotate: x -180deg;top: -73vw;}
 }
