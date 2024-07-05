@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://www.1zoom.me/big2/289/303143-Sepik.jpg);
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+    width: 15vw;
+    margin-left: 10px;
+    height: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.menu1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.Menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu2 {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu2 a {
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu2 a:hover {
+    background-color: #f1f1f179
+}
+
+.Menu:hover .menu2 {
+    display: block;
+}
+
+.Menu:hover .menu1 {
+    background-color: blue;
+}
