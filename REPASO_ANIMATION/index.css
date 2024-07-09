@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.barrierN1 {
+    position: absolute;
+    margin-left: 40vw;
+    width: 4vw;
+    height: 40vh;
+    background-color: rgb(255, 0, 0);
+}
+
+.barrierN2 {
+    position: absolute;
+    margin-left: 50vw;
+    
+    box-shadow: 20px;
+    width: 4vw;
+    height: 40vh;
+    background-color: red;
+}
+
+.barrierN3 {
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 1px;
+    width: 4vw;
+    height: 40vh;
+    background-color: red;
+}
