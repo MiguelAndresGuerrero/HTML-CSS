@@ -1,0 +1,75 @@
+.fondo {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 1px 20px;
+    border-radius: 50px;
+    width: 50vw;
+    height: 80vh;
+    margin-left: 20vw;
+    margin-top: 4vh;
+    z-index: -2;
+}
+
+.Contenedor {
+    margin-top: -180px;
+    margin-left: -65px;
+    rotate: 269deg;
+}
+
+img {
+    margin-left: 33vw;
+    margin-top: 14vh;
+    z-index: -1;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+}
+
+body:hover .Contenedor {
+    animation: move 1s linear infinite;
+}
+
+.Aguja1 {
+    width: 0;
+    height: 0;
+    border-left: 150px solid #ff3434;
+    border-top: 15px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-left: 49.3vw;
+    margin-top: -2.4vh;
+    position: absolute;
+    animation-name: Aguja1;
+
+}
+
+.Aguja2 {
+    width: 0;
+    height: 0;
+    border-left: 100px solid #ffffff;
+    border-top: 15px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    margin-left: 42vw;
+    margin-top: -2.5vh;
+    rotate: 180deg;
+    animation-name: Aguja2;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        rotate: 1000deg;
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
