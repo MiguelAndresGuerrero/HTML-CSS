@@ -1,0 +1,374 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+/* Header */
+img {
+    width: 200px;
+}
+
+.Contenedor1 {
+    position: relative;
+    left: 20vw;
+    width: 100px;
+    top: -17px;
+}
+
+.Contenedor2,
+.Contenedor3,
+.Contenedor4,
+.Contenedor5 {
+    position: relative;
+    left: 50vw;
+    top: -10vh;
+    list-style: none;
+    width: 60px;
+    border: 2px solid black;
+}
+
+.Contenedor2 {
+    text-align: center;
+}
+
+.Contenedor3 {
+    text-align: center;
+    left: 56vw;
+    top: -13.6vh;
+}
+
+.Contenedor4 {
+    text-align: center;
+    top: -17.3vh;
+    left: 62vw;
+}
+
+.Contenedor5 {
+    text-align: center;
+    top: -21vh;
+    left: 68vw;
+}
+
+.Contenedor2:hover,
+.Contenedor3:hover,
+.Contenedor4:hover,
+.Contenedor5:hover{
+    transition: 1s;
+    border-bottom: 3px solid rgb(236, 168, 66);
+}
+
+/* Parte2 */
+.Contenedor6 {
+    position: relative;
+    left: 34%;
+    margin-top: -5%;
+    font-size: 50px;
+    margin-left: -100px;
+    width: 500px;
+    text-align: center;
+}
+
+.Shop{
+    color: black;
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 42%;
+    width: 100px;
+    height: 40px;
+    margin-top: -3%;
+    background-color: rgb(236, 168, 66);
+    border: none;
+}
+
+.Shop:hover{
+    transition: 1s;
+    background-color: rgb(229, 255, 0);
+    cursor: pointer;
+    border: none;
+}
+
+.Imagen2 img{
+    position: absolute;
+    margin-top: 10%;
+    width: 500px;
+}
+
+.Imagen2 h2{
+    position: absolute;
+    margin-top: 12.5%;
+    margin-left: 55%;
+    font-size: 50px;
+}
+
+.Imagen2 p{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 55%;
+}
+
+.Imagen2 input{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 55%;
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    color: black;
+    border: none;
+    background-color: rgb(236, 168, 66);
+}
+
+.Imagen2 input:hover{
+    transition: 1s;
+    background-color: rgb(229, 255, 0);
+    cursor: pointer;
+}
+
+.linea1{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 4px;
+    margin-top: 13.3%;
+    margin-left: 45%;
+}
+
+/* Parte 3 */
+.Imagen3{
+    position: relative;
+    width: 1200px;
+    margin-top: 46%;
+    left: 10%;
+}
+
+.Imagen3 img{
+    position: absolute;
+    margin-left: 60%;
+}
+
+.Imagen3 h2{
+    font-size: 40px;
+}
+
+.Imagen3 p{
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.Imagen3 input{
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    color: black;
+    background-color: rgb(236, 168, 66);
+    border: none;
+}
+
+.Imagen3 input:hover{
+    transition: 1s;
+    background-color: rgb(229, 255, 0);
+    cursor: pointer;
+}
+
+/* PARTE 4 */
+.Imagen4{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.IMAGEN1{
+    position: relative;
+    margin-top: 100px;
+    border: 2px solid rgb(218, 164, 49);
+    width: 260px;
+    height: 300px;
+}
+
+.IMAGEN1 img{
+    margin-left: 6vw;
+    margin-top: -60px;
+    width: 100px;
+}
+
+.IMAGEN1 h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+.IMAGEN1 p{
+    margin-left: 33%;
+    font-size: 20px;
+}
+
+.IMAGEN2{
+    position: relative;
+    margin-top: -304px;
+    margin-left: 40%;
+    border: 2px solid rgb(218, 164, 49);
+    width: 260px;
+    height: 300px;
+}
+
+.IMAGEN2 img{
+    margin-left: 6vw;
+    margin-top: -60px;
+    width: 100px;
+}
+
+.IMAGEN2 h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+.IMAGEN2 p{
+    margin-left: 33%;
+    font-size: 20px;
+}
+
+.IMAGEN3{
+    position: relative;
+    margin-top: -304px;
+    margin-left: 75%;
+    border: 2px solid rgb(218, 164, 49);
+    width: 260px;
+    height: 300px;
+}
+
+.IMAGEN3 img{
+    margin-left: 6vw;
+    margin-top: -60px;
+    width: 100px;
+}
+
+.IMAGEN3 h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+.IMAGEN3 p{
+    margin-left: 33%;
+    font-size: 20px;
+}
+
+.IMAGEN1 input,
+.IMAGEN2 input,
+.IMAGEN3 input{
+    margin-left: 34%;
+    color: black;
+    background-color: rgb(236, 168, 66);
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+.IMAGEN1 input:hover,
+.IMAGEN2 input:hover,
+.IMAGEN3 input:hover{
+    transition: 1s;
+    background-color: rgb(229, 255, 0);
+    cursor: pointer;
+}
+
+/* Contacts */
+.linea2{
+    margin-top: 60px;
+    margin-left: 20vw;
+    width: 610px;
+    height: 2px;
+    background-color: rgb(236, 168, 66);
+    border-radius: 50px;
+}
+
+.Contacts{
+    margin-top: 10px;
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+}
+
+.Contacts h3{
+    position: absolute;
+    margin-top: -57px;
+    left: 20%;
+    font-size: 30px;
+    color: rgb(236, 168, 66);;
+}
+
+.Contacts p{
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+.Contacts2{
+    margin-top: -19vh;
+    margin-left: 30vw;
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+}
+
+.Contacts2 h3{
+    position: absolute;
+    margin-top: -57px;
+    left: 51%;
+    font-size: 30px;
+    color: rgb(236, 168, 66);;
+}
+
+.Contacts2 p{
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+.Contacts3{
+    margin-top: -18vh;
+    margin-left: 65vw;
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+}
+
+.Contacts3 h3{
+    position: absolute;
+    margin-top: -57px;
+    left: 87%;
+    font-size: 30px;
+    color: rgb(236, 168, 66);;
+}
+
+.Contacts3 p{
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+/* Footer */
+.linea3{
+    margin-top: 100px;
+    margin-left: 29vw;
+    width: 610px;
+    height: 2px;
+    background-color: rgb(236, 168, 66);
+    border-radius: 50px;
+}
+
+footer p{
+    position: relative;
+    left: 40%;
+    width: 300px;
+}
+
+footer h3{
+    position: relative;
+    width: 10px;
+    left: 59.3%;
+    top: -39px;
+    color: rgb(236, 168, 66);
+    font-size: 19px;
+}
