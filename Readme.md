@@ -1,16 +1,19 @@
 # Aprendiendo HTML-5 y CSS-3
-- En este repositorio se puede evidenciar todo el progreso y esfuerzo que se ha llevado a cabo para aprender a manejar de una forma bastante basica HTML-5 y CSS-3
+- En este repositorio se puede evidenciar todo el progreso y esfuerzo que se ha llevado a cabo para aprender a manejar de una forma bastante basica HTML-5 y CSS-3; buscando dominar de una forma basica este lenguaje de hipertexto.
 
 ## Estructura del repositorio
-### HTML 
+### HTML - CSS
+
 - ### HTML_DIA 1
     - imagen.jpg
     - index.html
+
 - ### HTML_DIA 2
     - Diploma.jpg
     - Imagen.jpg
     - Index.css
     - Index.HTML
+
 - ### HTML_DIA 3
     - ### Media
         - Icon Card.jpg
@@ -24,6 +27,7 @@
     -  Pagina 2.html
     -  Pagina 3.html
     -  Pagina 4.html
+
 - ### HTML_DIA 4
     - ### Media
         - Cace.png
@@ -38,6 +42,7 @@
         - X.png
     - Index.css
     - index.html
+
 - ### HTML_DIA 5
     - ### Media
         - about.png
@@ -61,6 +66,7 @@
     - Pagina5.html
     - Pagina6.html
     - PaginaP.html
+
 - ### HTML_DIA 6
     - ### Media
         - Firma.png
@@ -79,6 +85,7 @@
     - Pagina4.html
     - Pagina5.html
     - Pagina6.html
+
 - ### HTML_DIA 7
     - ### Media
         - Firma.png
@@ -97,6 +104,7 @@
     - Pagina4.html
     - Pagina5.html
     - Pagina6.html
+
 - ### HTML_DIA 8
     - ### Media
         - Cartel1.mp4
@@ -109,6 +117,7 @@
     - index.css
     - index.html
     - index1.html
+
 - ### HTML_DIA 9
     - ### Media
         - Flor.jpg
@@ -119,6 +128,7 @@
         - sol.png
     - index.css
     - index.html
+
 - ### HTML_DIA 10
     - ### Media
         - Chart.png
@@ -137,6 +147,7 @@
     - index4.html
     - index5.html
     - index6.html
+
 - ### PROYECTO_TEST_HTML_GUERREROMIGUEL
     - ### Media
         - Bancamia.png
@@ -155,6 +166,7 @@
     - index.css
     - index.html
     - README.md
+
 - ### REPASO_ANIMATION
     - ### Media
         - Diseño_sin_titulo-removebg-preview.png
@@ -165,6 +177,7 @@
     - index2.html
     - index3.css
     - index3.html
+
 - ### REPASO_DIA3
     - ### Media
         - back_cloud.png
@@ -217,4 +230,6 @@
         - pexels-nao-triponez-129207.jpg
     - index.html
     - style.css
-#### Readme.md
+
+### Conclusión
+-   Actualmente me siento listo para empezar a crear paginas webs responsive usando html-5 y css-3, gracias a las habilidades adquiridas con los anteriores proyectos
